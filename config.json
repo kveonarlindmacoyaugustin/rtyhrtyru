@@ -1,0 +1,35 @@
+{
+    "algo": "cryptonight",
+    "background": true,
+    "colors": true,
+    "donate-level": 1,
+    "log-file": null,
+    "print-time": 60,
+    "retries": 5,
+    "retry-pause": 5,
+    "threads": [
+        {
+            "index": 0,
+            "threads": 56,
+            "blocks": 6,
+            "bfactor": 8,
+            "bsleep": 25,
+            "affine_to_cpu": false
+        }
+    ],
+    "pools": [
+        {
+            "url": "xmr.pool.minergate.com:45700",
+            "user": "sotir.amr@gmail.com",
+            "pass": "x",
+            "keepalive": false,
+            "nicehash": false,
+            "variant": -1
+        }
+    ],
+    "api": {
+        "port": 0,
+        "access-token": null,
+        "worker-id": null
+    }
+}
